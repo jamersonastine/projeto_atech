@@ -1,4 +1,4 @@
-import java.until.Stack;
+import java.util.Stack;
 		
 		public class AreaMaior {
 		
@@ -16,7 +16,7 @@ import java.until.Stack;
 				
 				for (int linha = 0; linha < nlinhas, linha++) {			//faz a verificação em cada linha, deparando-se com '1', o bloco soma e cresce +1, se for '0' o bloco zera.
 					for (int bloco = 0; bloco < nblocos; bloco++) {	
-						alturablocos[bloco] = matriz[linha][bloco] = '1' ? alturablocos[bloco] + 1 : 0;
+						alturablocos[bloco] = matriz[linha][bloco] == '1' ? alturablocos[bloco] + 1 : 0;
 							
 					}
 
@@ -34,6 +34,7 @@ import java.until.Stack;
 						
 						stack.push(bloco);
 								
+					}
 				}				
 								
 				return max;
