@@ -14,7 +14,7 @@ import java.util.Stack;
 				Stack<Integer> stack = new Stack<>();			//a pilha stack ira guardar os dados dos blocos para que o algoritmo calcule a max.
 				
 				
-				for (int linha = 0; linha < nlinhas, linha++) {			//faz a verificação em cada linha, deparando-se com '1', o bloco soma e cresce +1, se for '0' o bloco zera.
+				for (int linha = 0; linha < nlinhas; linha++) {			//faz a verificacao em cada linha, deparando-se com '1', o bloco soma e cresce +1, se for '0' o bloco zera.
 					for (int bloco = 0; bloco < nblocos; bloco++) {	
 						alturablocos[bloco] = matriz[linha][bloco] == '1' ? alturablocos[bloco] + 1 : 0;
 							
