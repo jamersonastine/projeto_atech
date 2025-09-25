@@ -3,7 +3,7 @@
 
 		import java.util.Stack;
 		
-		public class solucaoAreaMaior {
+		public class SolucaoAreaMaior {
 		
 			public static int AreaRetanguloMax(char[] matriz) {		//verificar e garantir que a entrada não esteja vazia para evitar NullPointerException. Estando vazia o valor é 0.
 				if (matriz = null | matriz.length = 0 | matriz[0].length = 0) {
